@@ -4,7 +4,7 @@ Shell script to install a [Jiyo Masternode](http://www.jiyo.io/) on a Linux serv
 ***
 ## Installation:
 ```
-wget -q https://raw.githubusercontent.com/zoldur/JIYO/master/jiyo_install.sh
+wget -q https://github.com/Masternode-Scripts/JIYO-COIN/blob/master/jiyo_install.sh
 bash jiyo_install.sh
 ```
 ***
@@ -66,8 +66,7 @@ systemctl is-enabled Jiyo #To check whetether Jiyo service is enabled on boot or
 
 Any donation is highly appreciated.  
 
-**JIYO**: JMtUx8tNK5vuhPcLdUnNKSBAUbeKuFooyC  
-**BTC**: 3MQLEcHXVvxpmwbB811qiC1c6g21ZKa7Jh  
-**ETH**: 0x39d10fe57611c564abc255ffd7e984dc97e9bd6d  
-**LTC**: LNZpK4rCd1JVSB3rGKTAnTkudV9So9zexB
+**JIYO**: JhdRMgbtc8A1yZf7izRppkAjtdTAFGoqZM 
+**BTC**: 14wo9wWEyJ9qjoYjVPkLBg2Z818tmVtQpy 
+**LTC**: LcFUp64Ho6hBMogayfG8ZR1KcSnekF1GA1
 
