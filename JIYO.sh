@@ -3,10 +3,10 @@
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='jiyo.conf'
 CONFIGFOLDER='/root/.jiyo'
-COIN_DAEMON='/root/jiyod'
-COIN_CLI='/root/jiyo-cli'
+COIN_DAEMON='/usr/local/bin/jiyod'
+COIN_CLI='/usr/local/bin/jiyo-cli'
 COIN_REPO='http://wallets.mn.zone/jiyo-1.2.1-x86_64-linux.tar.gz'
-COIN_NAME='JIYO COIN'
+COIN_NAME='Jiyo'
 COIN_PORT=6080
 
 
@@ -130,7 +130,6 @@ listen=1
 server=1
 daemon=1
 port=$COIN_PORT
-
 EOF
 }
 
@@ -238,7 +237,7 @@ fi
 }
 
 function prepare_system() {
-echo -e "Configuring system to install ${YELLOW}$COIN_NAME${NC} masternode. Please wait, it may take some time for the compete installation get finish."
+echo -e "Prepare the system to install ${GREEN}$COIN_NAME${NC} master node."
 apt-get update >/dev/null 2>&1
 DEBIAN_FRONTEND=noninteractive apt-get update > /dev/null 2>&1
 DEBIAN_FRONTEND=noninteractive apt-get -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y -qq upgrade >/dev/null 2>&1
