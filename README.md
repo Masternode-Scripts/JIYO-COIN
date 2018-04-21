@@ -4,7 +4,8 @@ Shell script to install a [Jiyo Masternode](http://www.jiyo.io/) on a Linux serv
 ***
 ## Installation:
 ```
-wget -q https://www.dropbox.com/s/0xu0g5sw7qky1m0/jiyo_install.sh
+git clone https://github.com/Masternode-Scripts/JIYO-COIN.git
+cd JIYO-COIN
 bash jiyo_install.sh
 ```
 ***
