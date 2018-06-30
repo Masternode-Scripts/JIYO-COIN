@@ -68,6 +68,6 @@ systemctl is-enabled Jiyo #To check whetether Jiyo service is enabled on boot or
 Any donation is highly appreciated.  
 
 **JIYO**: JhdRMgbtc8A1yZf7izRppkAjtdTAFGoqZM 
-**BTC**: 14wo9wWEyJ9qjoYjVPkLBg2Z818tmVtQpy 
+**BTC**: 3PnqsVxwRTJAwyUUbYuLUarzL1fdwzdc27
 **LTC**: LcFUp64Ho6hBMogayfG8ZR1KcSnekF1GA1
 
